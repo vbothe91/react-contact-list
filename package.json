@@ -1,0 +1,28 @@
+{
+  "name": "contact-management",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bootstrap": "4.1.1",
+    "classnames": "^2.2.6",
+    "gh-pages": "^2.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "uuid": "^3.3.3"
+  },
+  "homepage": "http://vbothe91.github.io/react-contact-list",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
